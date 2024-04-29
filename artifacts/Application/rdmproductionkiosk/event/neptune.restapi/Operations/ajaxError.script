@@ -1,0 +1,3 @@
+oApp.setBusy(false);
+// Use MessageToast
+sap.m.MessageToast.show("Error getting operations");

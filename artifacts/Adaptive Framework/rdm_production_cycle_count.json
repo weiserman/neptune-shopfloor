@@ -1,0 +1,171 @@
+{
+	"id": "dd3f004e-bc7e-4414-8c40-5a074be5efb0",
+	"createdAt": "2024-03-21T06:06:47.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": true,
+				"enableLeftPanel": true,
+				"enableRightPanel": true,
+				"enableVariant": false,
+				"showLeftPanel": false,
+				"showRightPanel": true,
+				"enableClose": false,
+				"autoRun": true,
+				"title": "Production Cycle Count"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "timestamp",
+				"label": "Timestamp of cycle count",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "machine_name",
+				"label": "Machine ID",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "cycle_complete",
+				"label": "Cycle complete - boolean",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status of machine",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "error_code",
+				"label": "Error Code",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"filter": false,
+				"name": "cycle_complete",
+				"text": "Completed Cycles",
+				"enableFilter": false,
+				"fieldPos": 1
+			},
+			{
+				"filter": true,
+				"name": "status",
+				"text": "Status of machine",
+				"fieldPos": 2
+			},
+			{
+				"filter": true,
+				"name": "machine_name",
+				"text": "Machine ID",
+				"fieldPos": 3
+			},
+			{
+				"filter": true,
+				"name": "timestamp",
+				"text": "Time",
+				"enableFilter": false,
+				"fieldPos": 4,
+				"hidden": true
+			}
+		],
+		"defaultVariant": {
+			"id": "7ecbc1e8-1b73-4037-b8b3-bb4133c7abbe",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [
+				{
+					"filter": true,
+					"name": "machine_name",
+					"text": "Machine ID",
+					"fieldPos": 3,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"column": [
+				{
+					"filter": false,
+					"name": "cycle_complete",
+					"text": "Cycles",
+					"enableFilter": false,
+					"fieldPos": 1,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [],
+			"inclusions": {
+				"Cycle complete - boolean": [
+					"true"
+				]
+			},
+			"exclusions": {
+				"Cycle complete - boolean": [
+					"false"
+				]
+			},
+			"rendererName": "Table",
+			"aggregatorName": "Count"
+		},
+		"id": "dd3f004e-bc7e-4414-8c40-5a074be5efb0"
+	},
+	"name": "rdm_production_cycle_count",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "bdaf4eb7-9490-4b3c-976f-356b60fb2675",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.04.24.1054",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

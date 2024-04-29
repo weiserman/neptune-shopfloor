@@ -1,0 +1,87 @@
+{
+	"id": "c4752788-6366-48df-9dc4-9530e3f11982",
+	"createdAt": "2024-04-24T08:46:11.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "2151fbd4-34e0-41da-e88f-fa0612695cbc",
+			"fieldName": "machine_id",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Machine ID"
+		},
+		{
+			"id": "98337ba6-ff21-4ea4-eeba-21a49820866b",
+			"fieldName": "machine_serial_number",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Serial Number",
+			"isNullable": true
+		},
+		{
+			"id": "0c8e25c4-5fbc-4d3e-f4cd-87471e2c1276",
+			"fieldName": "work_center",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Work Center"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "b5920614-6f44-47f4-d6a5-d4b236e3c577",
+			"name": "FK_d1c17b2c3827fe815c283ba6a24",
+			"referencedTable": "rdm_workcenter",
+			"referencedTableId": "e4d92b08-ff67-49d1-8a91-d4901b9519f1",
+			"referencedTableColumns": [
+				{
+					"id": "4f36c21e-f23e-4466-b26c-e956d423abed",
+					"fieldName": "workcenter",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Work Center"
+				},
+				{
+					"id": "80b4f539-4291-41b7-af95-527c4775d124",
+					"fieldName": "description",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Description"
+				},
+				{
+					"id": "cf5aea37-9bae-4893-a8c4-d538998d33d5",
+					"fieldName": "plant",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Associated Plant"
+				},
+				{
+					"id": "e21cc2d8-5625-4782-a435-417d1996e75d",
+					"fieldName": "active",
+					"fieldType": "boolean",
+					"isUnique": false,
+					"description": "IsActive"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "4f36c21e-f23e-4466-b26c-e956d423abed",
+					"id": "0c8e25c4-5fbc-4d3e-f4cd-87471e2c1276",
+					"fieldName": "work_center",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Work Center",
+					"referencedColumnName": "workcenter"
+				}
+			]
+		}
+	],
+	"name": "rdm_production_machines",
+	"description": "Production Machines for Sensor data",
+	"ver": "24.04.27.1649",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [],
+	"rolesWrite": []
+}

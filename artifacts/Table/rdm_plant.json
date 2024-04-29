@@ -1,0 +1,52 @@
+{
+	"id": "2725861f-eef3-4b0f-b845-ed0cce2e4a01",
+	"createdAt": "2024-03-19T09:35:19.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "e4871862-8d82-4cd7-e4e4-1d77a7b65f2a",
+			"fieldName": "plant_code",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Plant Code"
+		},
+		{
+			"id": "eba1a7aa-594f-412b-e597-afbee3c23f34",
+			"fieldName": "full_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Full Name of Plant",
+			"isNullable": true
+		},
+		{
+			"id": "eaf18511-48f7-438d-eaa9-8f2351d620e4",
+			"fieldName": "sap_werks",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "SAP Plant",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_plant",
+	"description": "Plant ",
+	"ver": "24.03.21.1026",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

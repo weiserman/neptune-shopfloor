@@ -1,0 +1,36 @@
+{
+	"id": "1fbdfc97-b445-4be0-a19a-96865db4b568",
+	"createdAt": "2024-03-19T13:25:03.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "65cbe6d6-a87b-45e6-aa3e-07d0fbdb1d2d",
+			"fieldName": "cast_code",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Cast Code"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_cast_code",
+	"description": "Cast Code",
+	"ver": "24.03.19.1402",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

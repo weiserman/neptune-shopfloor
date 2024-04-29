@@ -1,0 +1,17 @@
+{
+	"id": "99e28aa1-5e49-47a3-97da-7d4a64e5cd45",
+	"createdAt": "2024-03-21T07:17:39.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "3c29834b-5f60-4509-91d7-63f6a4fa7bed"
+	},
+	"documentation": {},
+	"name": "rdm_production_operation_metric",
+	"description": "Production Operation Metric",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.21.0717",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

@@ -1,0 +1,176 @@
+{
+	"id": "6e6ddf91-7e1e-4842-b6d0-aa6c1dd9f265",
+	"createdAt": "2024-03-20T13:03:21.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "af16bdc2-6ddf-484a-fc77-68344630af6f",
+			"fieldName": "plan",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Plan Id",
+			"isNullable": true
+		},
+		{
+			"id": "f00b07df-f654-41b8-954b-341d0e579067",
+			"fieldName": "step_number",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Step Number"
+		},
+		{
+			"id": "17155fcc-a93c-49c1-e199-f6930d283973",
+			"fieldName": "operation",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Operation"
+		},
+		{
+			"id": "8eac2687-abf0-4093-818f-0ba398b0637a",
+			"fieldName": "workcenter",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Work Center"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "7ca2bb6c-0801-442d-8b1b-ff2726d7dd71",
+			"name": "FK_f06cd54758fc96d2318dbceebe0",
+			"referencedTable": "rdm_production_plan",
+			"referencedTableId": "88c9198b-f119-447b-ac0d-c120f99719a5",
+			"referencedTableColumns": [
+				{
+					"id": "330185f5-5d60-46eb-abaf-19074ae4719c",
+					"fieldName": "sap_production_plan",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "SAP Production Plan",
+					"isNullable": true
+				},
+				{
+					"id": "9c59f517-cf8b-4942-82f1-127ece17c4c7",
+					"fieldName": "plant",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Plant"
+				},
+				{
+					"id": "cf901cf0-0c4a-4b3e-c7ba-c9e90cb16321",
+					"fieldName": "product",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Product",
+					"isNullable": true
+				},
+				{
+					"id": "d1d39331-33f6-4630-9edf-4baeb3e5b739",
+					"fieldName": "customer_order_number",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Customer Order Number",
+					"isNullable": true
+				},
+				{
+					"id": "55f8032c-be50-40ea-b686-982bc8fc25d4",
+					"fieldName": "production_start_date",
+					"fieldType": "timestamptz",
+					"isUnique": false,
+					"description": "Start Date",
+					"isNullable": true
+				},
+				{
+					"id": "84ec846d-0933-4158-f7e8-0c97adb32c0e",
+					"fieldName": "production_end_date",
+					"fieldType": "timestamptz",
+					"isUnique": false,
+					"description": "End Date",
+					"isNullable": true
+				},
+				{
+					"id": "1f098ba8-9e74-4b76-bb15-87659ca312bc",
+					"fieldName": "target_qty",
+					"fieldType": "integer",
+					"isUnique": false,
+					"description": "Target Quantity"
+				},
+				{
+					"id": "b09f61ef-2e96-49e2-80ee-21b60d61d058",
+					"fieldName": "active",
+					"fieldType": "boolean",
+					"isUnique": false,
+					"description": "Plan is active",
+					"isNullable": true
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "330185f5-5d60-46eb-abaf-19074ae4719c",
+					"id": "af16bdc2-6ddf-484a-fc77-68344630af6f",
+					"fieldName": "plan",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Plan Id",
+					"isNullable": true,
+					"referencedColumnName": "sap_production_plan"
+				}
+			]
+		},
+		{
+			"id": "7605148a-e417-48d6-be56-2e7785f99d83",
+			"name": "FK_b0a530e909150c7a93617e530f5",
+			"referencedTable": "rdm_workcenter",
+			"referencedTableId": "e4d92b08-ff67-49d1-8a91-d4901b9519f1",
+			"referencedTableColumns": [
+				{
+					"id": "4f36c21e-f23e-4466-b26c-e956d423abed",
+					"fieldName": "workcenter",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Work Center"
+				},
+				{
+					"id": "80b4f539-4291-41b7-af95-527c4775d124",
+					"fieldName": "description",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Description"
+				},
+				{
+					"id": "cf5aea37-9bae-4893-a8c4-d538998d33d5",
+					"fieldName": "plant",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Associated Plant"
+				},
+				{
+					"id": "e21cc2d8-5625-4782-a435-417d1996e75d",
+					"fieldName": "active",
+					"fieldType": "boolean",
+					"isUnique": false,
+					"description": "IsActive"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "4f36c21e-f23e-4466-b26c-e956d423abed",
+					"id": "8eac2687-abf0-4093-818f-0ba398b0637a",
+					"fieldName": "workcenter",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Work Center",
+					"referencedColumnName": "workcenter"
+				}
+			]
+		}
+	],
+	"name": "rdm_production_operation",
+	"description": "Production Operation",
+	"ver": "24.04.27.1641",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [],
+	"rolesWrite": []
+}

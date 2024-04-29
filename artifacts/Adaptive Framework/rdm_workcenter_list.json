@@ -1,0 +1,230 @@
+{
+	"id": "92d586b1-c121-470c-96f7-b947a2d8b5e8",
+	"createdAt": "2024-03-20T10:20:11.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference",
+				"title": "Work Center",
+				"avatarIcon": "sap-icon://functional-location",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "5af131cd-2b20-4352-a03b-80e01a7f5231",
+					"keyField": []
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "5af131cd-2b20-4352-a03b-80e01a7f5231",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "workcenter",
+				"label": "Work Center",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "description",
+				"label": "Description",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "plant",
+				"label": "Associated Plant",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "active",
+				"label": "IsActive",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "workcenter",
+				"text": "Work Center",
+				"fieldPos": 1
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "description",
+				"text": "Description",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "plant",
+				"text": "Associated Plant",
+				"fieldPos": 3,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "rdm_plant",
+					"textField": "plant_code",
+					"keyField": [
+						{
+							"fieldName": "plant_code",
+							"key": "plant",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "active",
+				"text": "IsActive",
+				"fieldPos": 4,
+				"type": "CheckBox"
+			}
+		],
+		"defaultVariant": {
+			"id": "8e2d7548-d964-4599-d00a-1be253d1c97b",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_workcenter_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "a53be174-ba9d-47ca-afd3-a5524ce09e75",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.03.20.1036",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

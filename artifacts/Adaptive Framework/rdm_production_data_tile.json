@@ -1,0 +1,164 @@
+{
+	"id": "4f3e07cf-8141-4774-816c-b36f7515d96e",
+	"createdAt": "2024-03-22T09:38:12.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": 10,
+				"updateTime": 0,
+				"initialGroupField": "product",
+				"initialGroupOrder": "ASC"
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": false
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "bar",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": false,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "vertical",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"title": "Production Orders",
+				"subTitle": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "plant",
+				"label": "Plant",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "product",
+				"label": "Product",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_order_number",
+				"label": "Customer Order Number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_start_date",
+				"label": "Start Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_end_date",
+				"label": "End Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "target_qty",
+				"label": "Target Quantity",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "active",
+				"label": "Plan is active",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "target_qty",
+				"text": "Target Quantity",
+				"enableFilter": false,
+				"fieldPos": 1,
+				"type": "value"
+			},
+			{
+				"visible": true,
+				"name": "customer_order_number",
+				"text": "Production Type",
+				"fieldPos": 2
+			},
+			{
+				"visible": true,
+				"name": "product",
+				"text": "Product",
+				"fieldPos": 3,
+				"type": "category"
+			}
+		],
+		"defaultVariant": {
+			"id": "26e37b95-89ea-4693-ec77-132ebf8275ae",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_production_data_tile",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c2f99535-04dd-4378-9a04-b33d3646fda6",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.03.22.0946",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

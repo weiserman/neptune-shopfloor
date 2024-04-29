@@ -1,0 +1,118 @@
+{
+	"id": "60317bc0-4c71-4575-9d1f-74f6fbbd1493",
+	"createdAt": "2024-03-20T09:11:54.000Z",
+	"createdBy": "admin",
+	"translation": [],
+	"tilesOrder": [
+		"f76c6740-e785-4916-87fb-3ea49f440cb9",
+		"c8096eb0-f263-4330-9d7b-21b6ef516880",
+		"4120d5f1-32f6-4c88-bf9f-7da42911c31e",
+		"00793fd1-c5d5-4faf-9343-faa61aa7b7cc"
+	],
+	"tilegroupsOrder": [
+		"a8e73e46-0de1-44d2-aeeb-84cd620aad94",
+		"a9ea6878-6b97-46b2-a5c5-685a5135d1f7"
+	],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Production Dashboards",
+	"subTitle": "Maintenance & Master Data",
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": null,
+	"hideHeader": null,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.04.26.0606",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Production Planning",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": null,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"tiles": [
+		{
+			"id": "f76c6740-e785-4916-87fb-3ea49f440cb9",
+			"name": "rdm plants",
+			"title": "Plant Management",
+			"ver": "24.03.21.1025"
+		},
+		{
+			"id": "c8096eb0-f263-4330-9d7b-21b6ef516880",
+			"name": "rdm workcenters",
+			"title": "Cells",
+			"ver": "24.03.21.0556"
+		},
+		{
+			"id": "4120d5f1-32f6-4c88-bf9f-7da42911c31e",
+			"name": "rdm operations",
+			"title": "Operations",
+			"ver": "24.03.21.0555"
+		},
+		{
+			"id": "00793fd1-c5d5-4faf-9343-faa61aa7b7cc",
+			"name": "rdm machine",
+			"title": "Production Machines",
+			"ver": "24.04.26.0607"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "a9ea6878-6b97-46b2-a5c5-685a5135d1f7",
+			"name": "Production Data",
+			"title": "Production Data",
+			"ver": "24.04.26.0551"
+		},
+		{
+			"id": "a8e73e46-0de1-44d2-aeeb-84cd620aad94",
+			"name": "Shift Planning",
+			"title": "Shift planning",
+			"ver": "24.03.22.0948"
+		}
+	]
+}

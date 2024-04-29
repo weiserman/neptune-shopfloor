@@ -1,0 +1,361 @@
+{
+	"id": "56c330b5-9ea2-4c5f-803c-8ca96187e434",
+	"createdAt": "2024-04-24T10:59:10.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "649ca1ff-df3a-49df-b71b-7d6d29dcac34",
+			"path": "/rdm_sensor_data",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rdm_sensor_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "e3d4d964-0076-44b6-8516-4ba7ee10c2b3",
+			"path": "/rdm_sensor_data",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "rdm_sensor_data"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rdm_sensor_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "31fbc6bf-61b4-471d-9530-0da895c7cdb8",
+			"path": "/rdm_sensor_data",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "rdm_sensor_data"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rdm_sensor_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "b6355112-0afb-4fe8-b489-022f78d66c51",
+			"path": "/rdm_sensor_data",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "rdm_sensor_data"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dc5573cb-1c8e-4abc-89aa-60e2a8298dd8",
+			"path": "/rdm_sensor_data/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "f203e278-2c1e-4ed0-95b4-f1c8d9f44188",
+			"name": "rdm_sensor_data",
+			"properties": [
+				{
+					"id": "b94ff14e-c452-47a7-983f-eae337f5fb6c",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "0b230156-4c27-4b8a-83c1-b334bdbfd3fc",
+					"parent": "",
+					"name": "timestamp",
+					"description": "Timestamp of cycle count",
+					"objectType": "string"
+				},
+				{
+					"id": "d8318d4a-4519-4c73-bc25-aed0c7b1de54",
+					"parent": "",
+					"name": "machine_name",
+					"description": "Machine ID",
+					"objectType": "string"
+				},
+				{
+					"id": "aafd8806-5b42-42a6-9c86-b67731f9f01c",
+					"parent": "",
+					"name": "cycle_complete",
+					"description": "Cycle complete - boolean",
+					"default": "True",
+					"objectType": "boolean"
+				},
+				{
+					"id": "b786e9f0-3063-4403-96fa-da85189c110d",
+					"parent": "",
+					"name": "status",
+					"description": "Status of machine",
+					"default": "Running",
+					"objectType": "string"
+				},
+				{
+					"id": "b820d912-96c6-4fe7-b4b0-a22ffb836835",
+					"parent": "",
+					"name": "error_code",
+					"description": "Error Code",
+					"default": "None",
+					"objectType": "string"
+				},
+				{
+					"id": "47c4035c-7b03-4f23-bb05-e1226147ffd1",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "e41109b6-5fc5-440f-b95c-e03d073913f7",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "02cbe506-5908-45e7-9ed7-ab8ff0bff3a7",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "98abbb03-e5ff-43be-9b82-9dc938ba440b",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "0ca234ac-8d77-4a72-9184-5cd866a33d3d",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "7aaa28b4-e307-438f-8ebe-6bab98344982",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "941cf54c-b1b9-4c17-a0c0-bd5abe46f727",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "84e47adb-bf4e-433e-991c-7c131d1ba432",
+			"name": "count",
+			"properties": [
+				{
+					"id": "c52aa1cc-905b-4302-8cf8-394037320a56",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "rdm_sensor_data",
+	"endpoint": "/api/entity",
+	"ver": "24.04.24.1100",
+	"version": null,
+	"description": "Raw Sensor Data",
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"apiGroup": "8527139c-8f1e-4399-aaf3-dbe92de2369c",
+	"apiFormat": 0,
+	"roles": []
+}

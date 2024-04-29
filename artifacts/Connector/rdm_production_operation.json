@@ -1,0 +1,17 @@
+{
+	"id": "57ce5f26-8f63-46cb-8260-6c8b1bc73afe",
+	"createdAt": "2024-03-20T13:03:27.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "6e6ddf91-7e1e-4842-b6d0-aa6c1dd9f265"
+	},
+	"documentation": {},
+	"name": "rdm_production_operation",
+	"description": "Production Operation",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.20.1303",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

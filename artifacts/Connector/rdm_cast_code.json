@@ -1,0 +1,17 @@
+{
+	"id": "f5b995ab-aab5-4c17-a750-ccaf6724a2aa",
+	"createdAt": "2024-03-19T13:25:11.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "1fbdfc97-b445-4be0-a19a-96865db4b568"
+	},
+	"documentation": {},
+	"name": "rdm_cast_code",
+	"description": "Cast Code",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.19.1325",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

@@ -1,0 +1,48 @@
+{
+	"id": "3c29834b-5f60-4509-91d7-63f6a4fa7bed",
+	"createdAt": "2024-03-20T13:03:21.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "447e33ad-5876-46a0-86bd-e029399a17ed",
+			"fieldName": "operation_id",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Operation ID"
+		},
+		{
+			"id": "b7001de0-24e9-4ba9-8ded-cf2bd57f46ae",
+			"fieldName": "target_units",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Target",
+			"isNullable": true
+		},
+		{
+			"id": "c063aae6-691a-4a5a-a6d5-e6c19c052158",
+			"fieldName": "unit_count",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Unit Count",
+			"isNullable": true
+		},
+		{
+			"id": "1bdb7f69-b039-4a89-9fbd-80ca1f847412",
+			"fieldName": "metric_info",
+			"fieldType": "json",
+			"isUnique": false,
+			"description": "Metric content",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_production_operation_metric",
+	"description": "Production Operation",
+	"ver": "24.03.21.0730",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [],
+	"rolesWrite": []
+}

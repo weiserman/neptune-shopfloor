@@ -1,0 +1,2 @@
+modeloPageForm.oData.editable = !modeloPageForm.oData.editable;
+modeloPageForm.refresh();

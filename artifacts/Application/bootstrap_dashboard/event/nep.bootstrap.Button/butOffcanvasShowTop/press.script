@@ -1,0 +1,2 @@
+offcanvas.setPlacement("Top");
+offcanvas.show();

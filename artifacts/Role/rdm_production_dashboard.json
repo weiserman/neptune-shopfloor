@@ -1,0 +1,10 @@
+{
+	"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+	"createdAt": "2024-03-19T09:33:19.000Z",
+	"createdBy": "admin",
+	"name": "rdm_production_dashboard",
+	"description": "Production Dashboard Role",
+	"ver": "24.03.19.0933",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"acl": []
+}

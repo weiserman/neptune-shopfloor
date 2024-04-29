@@ -1,0 +1,11 @@
+console.log(oEvent.oSource)
+
+var mdl = modelDataModel.getData();
+var object = mdl.devItems[0];
+
+console.log(object)
+
+ProductionRunTitle.setText(object.name);
+NumericHeader2.setNumber(object.code)
+// ObjectHeader.setIntro(object.name);
+// ObjectAttribute2.setText(object.note)

@@ -1,0 +1,17 @@
+{
+	"id": "4b4b244f-ec08-4d41-bf54-5c303fa4ad64",
+	"createdAt": "2024-04-24T08:46:28.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "c4752788-6366-48df-9dc4-9530e3f11982"
+	},
+	"documentation": {},
+	"name": "rdm_production_machines",
+	"description": "Production Machines for Sensor data",
+	"group": null,
+	"type": "T",
+	"ver": "24.04.24.0846",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

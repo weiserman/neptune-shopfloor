@@ -1,0 +1,36 @@
+{
+	"id": "47600a74-2036-4ed9-af50-685e56716bf6",
+	"createdAt": "2024-03-20T07:43:33.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "34cc7e9a-7bc5-428e-8af8-7d4cb916fd4f",
+			"fieldName": "shell_number",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Shell Number"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_shell_number",
+	"description": "Shell Number",
+	"ver": "24.03.20.0744",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

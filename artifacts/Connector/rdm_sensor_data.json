@@ -1,0 +1,17 @@
+{
+	"id": "bdaf4eb7-9490-4b3c-976f-356b60fb2675",
+	"createdAt": "2024-04-24T09:02:36.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "57c4abec-ef29-4feb-8d70-591d6e2cb189"
+	},
+	"documentation": {},
+	"name": "rdm_sensor_data",
+	"description": "Raw Sensor Data",
+	"group": null,
+	"type": "T",
+	"ver": "24.04.24.0902",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

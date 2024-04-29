@@ -1,0 +1,176 @@
+{
+	"id": "88c9198b-f119-447b-ac0d-c120f99719a5",
+	"createdAt": "2024-03-20T11:01:54.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "330185f5-5d60-46eb-abaf-19074ae4719c",
+			"fieldName": "sap_production_plan",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "SAP Production Plan",
+			"isNullable": true
+		},
+		{
+			"id": "9c59f517-cf8b-4942-82f1-127ece17c4c7",
+			"fieldName": "plant",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Plant"
+		},
+		{
+			"id": "cf901cf0-0c4a-4b3e-c7ba-c9e90cb16321",
+			"fieldName": "product",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Product",
+			"isNullable": true
+		},
+		{
+			"id": "d1d39331-33f6-4630-9edf-4baeb3e5b739",
+			"fieldName": "customer_order_number",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Customer Order Number",
+			"isNullable": true
+		},
+		{
+			"id": "55f8032c-be50-40ea-b686-982bc8fc25d4",
+			"fieldName": "production_start_date",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"description": "Start Date",
+			"isNullable": true
+		},
+		{
+			"id": "84ec846d-0933-4158-f7e8-0c97adb32c0e",
+			"fieldName": "production_end_date",
+			"fieldType": "timestamptz",
+			"isUnique": false,
+			"description": "End Date",
+			"isNullable": true
+		},
+		{
+			"id": "1f098ba8-9e74-4b76-bb15-87659ca312bc",
+			"fieldName": "target_qty",
+			"fieldType": "integer",
+			"isUnique": false,
+			"description": "Target Quantity"
+		},
+		{
+			"id": "b09f61ef-2e96-49e2-80ee-21b60d61d058",
+			"fieldName": "active",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "Plan is active",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "dcd8a152-ae5f-43e3-d212-eeb4875398d4",
+			"name": "FK_931c93cc57defaa0fdee24f9e03",
+			"referencedTable": "rdm_products",
+			"referencedTableId": "0acbe3c1-11f5-44f4-bf73-a1f7157bd84d",
+			"referencedTableColumns": [
+				{
+					"id": "7eebfba6-3c28-4e3a-8dee-341455ef56a8",
+					"fieldName": "product_name",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Product Name"
+				},
+				{
+					"id": "0e4f3dcc-b6c7-4daf-822d-444518a83797",
+					"fieldName": "active",
+					"fieldType": "boolean",
+					"isUnique": false,
+					"description": "is Active",
+					"isNullable": true
+				},
+				{
+					"id": "852a0171-f6e7-4501-ccb6-41e01a315d6b",
+					"fieldName": "description",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "product Description",
+					"isNullable": true
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "7eebfba6-3c28-4e3a-8dee-341455ef56a8",
+					"id": "cf901cf0-0c4a-4b3e-c7ba-c9e90cb16321",
+					"fieldName": "product",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Product",
+					"isNullable": true,
+					"referencedColumnName": "product_name"
+				}
+			]
+		},
+		{
+			"id": "0bf225fe-c90b-46bf-802c-d475ec0c0379",
+			"name": "FK_efb1bf5af1fbf51201c7cba57a2",
+			"referencedTable": "rdm_plant",
+			"referencedTableId": "2725861f-eef3-4b0f-b845-ed0cce2e4a01",
+			"referencedTableColumns": [
+				{
+					"id": "e4871862-8d82-4cd7-e4e4-1d77a7b65f2a",
+					"fieldName": "plant_code",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Plant Code"
+				},
+				{
+					"id": "eba1a7aa-594f-412b-e597-afbee3c23f34",
+					"fieldName": "full_name",
+					"fieldType": "text",
+					"isUnique": false,
+					"description": "Full Name of Plant",
+					"isNullable": true
+				},
+				{
+					"id": "eaf18511-48f7-438d-eaa9-8f2351d620e4",
+					"fieldName": "sap_werks",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "SAP Plant",
+					"isNullable": true
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "e4871862-8d82-4cd7-e4e4-1d77a7b65f2a",
+					"id": "9c59f517-cf8b-4942-82f1-127ece17c4c7",
+					"fieldName": "plant",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"referencedColumnName": "plant_code"
+				}
+			]
+		}
+	],
+	"name": "rdm_production_plan",
+	"description": "Production",
+	"ver": "24.04.27.1630",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

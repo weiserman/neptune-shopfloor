@@ -1,0 +1,52 @@
+{
+	"id": "0acbe3c1-11f5-44f4-bf73-a1f7157bd84d",
+	"createdAt": "2024-03-20T08:31:52.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "7eebfba6-3c28-4e3a-8dee-341455ef56a8",
+			"fieldName": "product_name",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Product Name"
+		},
+		{
+			"id": "0e4f3dcc-b6c7-4daf-822d-444518a83797",
+			"fieldName": "active",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "is Active",
+			"isNullable": true
+		},
+		{
+			"id": "852a0171-f6e7-4501-ccb6-41e01a315d6b",
+			"fieldName": "description",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "product Description",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_products",
+	"description": "Products ",
+	"ver": "24.04.27.1620",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

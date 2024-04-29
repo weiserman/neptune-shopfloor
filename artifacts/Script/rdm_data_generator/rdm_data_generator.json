@@ -1,0 +1,34 @@
+{
+	"id": "940793ad-8c51-4f50-94c5-a16f03442920",
+	"createdAt": "2024-04-24T14:07:40.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "internal_crypto",
+			"name": "crypto",
+			"contextname": "crypto",
+			"path": "crypto"
+		}
+	],
+	"entitySets": [
+		{
+			"id": "57c4abec-ef29-4feb-8d70-591d6e2cb189",
+			"name": "rdm_sensor_data",
+			"contextname": "rdm_sensor_data"
+		}
+	],
+	"apis": [],
+	"name": "rdm_data_generator",
+	"ver": "24.04.26.0538",
+	"description": "Generate sensor data",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "e44ca1d6-aacb-4039-9dfa-34f5186f0da7",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

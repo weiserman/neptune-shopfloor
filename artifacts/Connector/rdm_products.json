@@ -1,0 +1,17 @@
+{
+	"id": "28bb6a54-0817-4215-aa5c-7a3e0d26b0e7",
+	"createdAt": "2024-03-20T08:32:10.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "0acbe3c1-11f5-44f4-bf73-a1f7157bd84d"
+	},
+	"documentation": {},
+	"name": "rdm_products",
+	"description": "Products ",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.20.0832",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

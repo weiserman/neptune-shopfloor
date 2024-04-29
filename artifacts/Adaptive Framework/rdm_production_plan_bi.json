@@ -1,0 +1,182 @@
+{
+	"id": "d7752466-9be3-450c-b137-61d68c36f307",
+	"createdAt": "2024-03-21T06:06:47.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"enableValues": false,
+				"enableLeftPanel": false,
+				"enableRightPanel": false,
+				"enableVariant": false,
+				"showLeftPanel": false,
+				"showRightPanel": false,
+				"enableClose": false,
+				"autoRun": true,
+				"title": "Production Orders"
+			},
+			"form": {},
+			"table": {
+				"showRowTotal": true,
+				"showColTotal": true
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "plant",
+				"label": "Plant",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "product",
+				"label": "Product",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_order_number",
+				"label": "Customer Order Number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_start_date",
+				"label": "Start Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_end_date",
+				"label": "End Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "target_qty",
+				"label": "Target Quantity",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "active",
+				"label": "Plan is active",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"filter": true,
+				"name": "plant",
+				"text": "Plant",
+				"fieldPos": 1
+			},
+			{
+				"filter": true,
+				"name": "product",
+				"text": "Product",
+				"fieldPos": 2
+			},
+			{
+				"filter": false,
+				"name": "customer_order_number",
+				"text": "",
+				"fieldPos": 3
+			},
+			{
+				"filter": true,
+				"name": "target_qty",
+				"text": "Target Quantity",
+				"enableFilter": false,
+				"fieldPos": 4
+			}
+		],
+		"defaultVariant": {
+			"id": "7ecbc1e8-1b73-4037-b8b3-bb4133c7abbe",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [
+				{
+					"filter": false,
+					"name": "customer_order_number",
+					"text": "",
+					"fieldPos": 1,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"column": [
+				{
+					"filter": true,
+					"name": "product",
+					"text": "Product",
+					"fieldPos": 2,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"val": [
+				{
+					"filter": true,
+					"name": "target_qty",
+					"text": "Target Quantity",
+					"enableFilter": false,
+					"fieldPos": 2,
+					"visible": false,
+					"filterType": "Transparent"
+				}
+			],
+			"inclusions": {},
+			"exclusions": {},
+			"rendererName": "Stacked Column Chart",
+			"aggregatorName": "Sum"
+		},
+		"id": "d7752466-9be3-450c-b137-61d68c36f307"
+	},
+	"name": "rdm_production_plan_bi",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c2f99535-04dd-4378-9a04-b33d3646fda6",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.03.22.0919",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_bi",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

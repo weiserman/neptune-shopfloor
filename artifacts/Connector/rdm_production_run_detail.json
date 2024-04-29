@@ -1,0 +1,17 @@
+{
+	"id": "17021a8e-8f33-4ae1-8a95-db99b036a820",
+	"createdAt": "2024-03-21T06:38:28.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "5726a67c-0cea-4249-a60d-1f30bf165d5e"
+	},
+	"documentation": {},
+	"name": "rdm_production_run_detail",
+	"description": "Production run information",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.21.0638",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

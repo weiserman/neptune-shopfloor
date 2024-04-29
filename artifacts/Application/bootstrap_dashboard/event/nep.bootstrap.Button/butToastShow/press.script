@@ -1,0 +1,8 @@
+if (inToastPos.getSelectedKey()) oToast.setPosition(inToastPos.getSelectedKey());
+if (inToastColor.getSelectedKey()) oToast.setBackgroundColor(inToastColor.getSelectedKey());
+if (inToastTextColor.getSelectedKey()) oToast.setTextColor(inToastTextColor.getSelectedKey());
+oToast.setAutohide(inToastAutoHide.getSelected())
+
+// toastTitle.setText("System Information");
+toastTimestamp.setText(new Date());
+oToast.clone().show();

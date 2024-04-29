@@ -1,0 +1,26 @@
+@import url("https://db.onlinewebfonts.com/c/c9c60c88cb732119e5a9457f2d9cdc53?family=DINPro-Regular");
+* {
+  font-family: "DINPro-Regular", sans-serif;
+}
+
+.nbsCard * {
+  color: #0A3F6E;
+}
+
+.btn-primary {
+  background-color: #0A3F6E;
+  color: whitesmoke;
+  border: #0A3F6E;
+}
+
+.btn-primary:focus {
+  background-color: #08355c;
+  color: whitesmoke;
+  border: #08355c;
+}
+
+.btn-primary:hover {
+  background-color: #08355c;
+  color: whitesmoke;
+  border: #08355c;
+}

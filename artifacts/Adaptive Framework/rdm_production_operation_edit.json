@@ -1,0 +1,208 @@
+{
+	"id": "7182e5f0-f731-43dd-b310-1d1787bc0cea",
+	"createdAt": "2024-03-20T13:08:19.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Metrics",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": true,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"avatarIcon": "sap-icon://tnt/Service task",
+				"title": "Production Operation",
+				"tab1Icon": "sap-icon://detail-more",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "2f827f14-a31f-44a0-b296-3e89de6fa219",
+					"keyField": [
+						{
+							"fieldName": "operation_id",
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "plan",
+				"label": "Plan Id",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_order_number",
+				"label": "Customer Order Number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "step_number",
+				"label": "Step Number",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "operation",
+				"label": "Operation",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "workcenter",
+				"label": "Work Center",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "plan",
+				"text": "Plan Id",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_production_plan",
+				"lookupFieldKey": "id",
+				"required": true,
+				"lookupFieldText": "id",
+				"lookupFieldAdditional": "product",
+				"lookupShowOnlyText": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "step_number",
+				"text": "Step Number",
+				"fieldPos": 2,
+				"type": "Input",
+				"inputType": "Number",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "operation",
+				"text": "Operation",
+				"fieldPos": 3,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_operation",
+				"lookupFieldKey": "operation",
+				"lookupFieldText": "operation",
+				"required": true,
+				"lookupShowOnlyText": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "workcenter",
+				"text": "Work Center / Cell",
+				"fieldPos": 4,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_workcenter",
+				"lookupFieldKey": "workcenter",
+				"lookupFieldText": "workcenter",
+				"required": true
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "57677adf-b927-47ca-90a9-3a2aa94492f6",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_production_operation_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "57ce5f26-8f63-46cb-8260-6c8b1bc73afe",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.03.22.0855",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

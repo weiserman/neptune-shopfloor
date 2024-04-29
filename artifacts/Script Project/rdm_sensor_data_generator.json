@@ -1,0 +1,9 @@
+{
+	"id": "e44ca1d6-aacb-4039-9dfa-34f5186f0da7",
+	"createdAt": "2024-04-24T14:06:44.000Z",
+	"createdBy": "admin",
+	"name": "rdm_sensor_data_generator",
+	"description": "Generate Sample Data",
+	"ver": "24.04.26.0538",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

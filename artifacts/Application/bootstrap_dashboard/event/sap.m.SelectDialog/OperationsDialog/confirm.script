@@ -1,0 +1,19 @@
+// Single Select
+// Replace FIELD to your required field
+const selectedItem = oEvent.getParameter("selectedItem");
+const context = selectedItem.getBindingContext();
+// const value = context.getProperty("FIELD");
+
+console.log(selectedItem.getProperty("title"));
+
+//ProductionControlCard.setTitle(`Production Control — ${selectedItem.getProperty("title")}`)
+// Multi Select
+// const selectedItems = oEvent.getParameter("selectedItems");
+
+OperationButtonBootstrap.setContextColor("Primary");
+OperationButtonBootstrap.setText(selectedItem.getProperty("title"));
+
+if (OperationButtonBootstrap.getContextColor() === "Primary" && ProductButton.getContextColor() === "Primary"){
+    StartBtnBootstrap.setEnabled(true);
+}
+

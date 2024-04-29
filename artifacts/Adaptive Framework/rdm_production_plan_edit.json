@@ -1,0 +1,274 @@
+{
+	"id": "dd50928f-8228-4f90-9021-0078b0083233",
+	"createdAt": "2024-03-20T11:06:19.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Operations",
+				"tab2Text": "Codes",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": true,
+				"enableTab2": true,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"title": "Production Plan",
+				"avatarIcon": "sap-icon://target-group",
+				"tab1Icon": "sap-icon://step",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "35570163-3f28-411a-944e-7a2042c986eb",
+					"keyField": [
+						{
+							"fieldName": "plan",
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"tab2Icon": "sap-icon://detail-more",
+				"_tab2Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "56c55e77-968d-4b33-aca1-b02cd66d1ad0",
+					"keyField": [
+						{
+							"fieldName": "plan_id",
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "sap_production_plan",
+				"label": "SAP Production Plan",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "plant",
+				"label": "Plant",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "product",
+				"label": "Product",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_order_number",
+				"label": "Customer Order Number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_start_date",
+				"label": "Start Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_end_date",
+				"label": "End Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "target_qty",
+				"label": "Target Quantity",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "active",
+				"label": "Plan is active",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "sap_production_plan",
+				"text": "SAP Production Plan",
+				"fieldPos": 1,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "customer_order_number",
+				"text": "Customer Order",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "plant",
+				"text": "Plant",
+				"fieldPos": 3,
+				"required": true,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_plant",
+				"lookupFieldKey": "plant_code",
+				"lookupShowOnlyText": true,
+				"lookupFieldText": "plant_code",
+				"lookupFieldAdditional": "full_name"
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "product",
+				"text": "Product",
+				"fieldPos": 4,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_products",
+				"lookupFieldKey": "product_name",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"lookupFieldText": "product_name",
+				"lookupFieldAdditional": "description"
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "production_start_date",
+				"text": "Start Date",
+				"fieldPos": 5,
+				"type": "DatePicker",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "production_end_date",
+				"text": "End Date",
+				"fieldPos": 6,
+				"type": "DatePicker",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "target_qty",
+				"text": "Target Quantity",
+				"fieldPos": 7,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "active",
+				"text": "Plan is active",
+				"fieldPos": 8,
+				"type": "CheckBox",
+				"default": "X"
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "a63e6352-c130-4256-d46f-0348523536f0",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_production_plan_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c2f99535-04dd-4378-9a04-b33d3646fda6",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.04.27.1632",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

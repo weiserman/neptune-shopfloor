@@ -1,0 +1,17 @@
+{
+	"id": "e891b88c-122e-48fe-82ce-4ad131d078fe",
+	"createdAt": "2024-03-20T07:36:07.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "2724d5af-060f-40d2-b3bf-08d3c1c0a837"
+	},
+	"documentation": {},
+	"name": "rdm_heat_code",
+	"description": "Heat Code ",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.20.0736",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

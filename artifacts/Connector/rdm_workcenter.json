@@ -1,0 +1,17 @@
+{
+	"id": "a53be174-ba9d-47ca-afd3-a5524ce09e75",
+	"createdAt": "2024-03-20T10:18:20.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "e4d92b08-ff67-49d1-8a91-d4901b9519f1"
+	},
+	"documentation": {},
+	"name": "rdm_workcenter",
+	"description": "Work centers",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.20.1018",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

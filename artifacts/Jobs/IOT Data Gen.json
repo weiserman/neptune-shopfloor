@@ -1,0 +1,32 @@
+{
+	"id": "7ddf5f44-4a0a-43b1-bac4-aacbcb82dfd2",
+	"createdAt": "2024-04-24T14:49:51.000Z",
+	"createdBy": "admin",
+	"scripts": [
+		{
+			"id": "940793ad-8c51-4f50-94c5-a16f03442920",
+			"name": "rdm_data_generator",
+			"number": 1,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		}
+	],
+	"name": "IOT Data Gen",
+	"description": "Generate IOT data",
+	"alertEmail": "warren@vmglabs.com",
+	"active": false,
+	"intervalMonths": null,
+	"intervalDays": null,
+	"intervalHours": null,
+	"intervalMinutes": 10,
+	"intervalSeconds": null,
+	"maxRuntimeSeconds": 0,
+	"restartMaxRuntimeAbort": false,
+	"startdate": "2024-04-24T14:48:25.273Z",
+	"stopdate": "9999-12-31T00:00:00.000Z",
+	"executeInNextCycle": false,
+	"ver": "24.04.25.0442",
+	"machineId": "c01f7594c20f676c7a4bd8f52393b0f1ce762e2a046cd0ebdb3b08c873fd7d1a",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

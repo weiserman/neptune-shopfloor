@@ -1,0 +1,17 @@
+{
+	"id": "084dd371-94c0-4ade-ab6c-e9f0eb9b0f54",
+	"createdAt": "2024-03-20T07:44:09.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "47600a74-2036-4ed9-af50-685e56716bf6"
+	},
+	"documentation": {},
+	"name": "rdm_shell_number",
+	"description": "Shell Number",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.20.0744",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

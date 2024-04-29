@@ -1,0 +1,17 @@
+{
+	"id": "c2f99535-04dd-4378-9a04-b33d3646fda6",
+	"createdAt": "2024-03-20T11:01:59.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "88c9198b-f119-447b-ac0d-c120f99719a5"
+	},
+	"documentation": {},
+	"name": "rdm_production_plan",
+	"description": "Production",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.20.1101",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

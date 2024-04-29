@@ -1,0 +1,36 @@
+{
+	"id": "2724d5af-060f-40d2-b3bf-08d3c1c0a837",
+	"createdAt": "2024-03-20T07:36:00.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "7336cab0-eb3e-4c8f-9c99-4b0be4713f56",
+			"fieldName": "heat_code",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Heat Code"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_heat_code",
+	"description": "Heat Code ",
+	"ver": "24.03.20.0736",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

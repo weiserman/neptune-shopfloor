@@ -1,0 +1,118 @@
+{
+	"id": "a9ea6878-6b97-46b2-a5c5-685a5135d1f7",
+	"createdAt": "2024-03-20T10:41:55.000Z",
+	"createdBy": "admin",
+	"translation": [],
+	"tilesOrder": [
+		"4f4dab62-1c32-4dee-a95d-15fe5b250fdc",
+		"80b7ee47-5769-451a-93ec-39d28dd07269",
+		"2007c1e7-aa3b-469f-a499-31207955f266",
+		"24dc85bb-c1ce-4762-809f-47a10ed62ebe",
+		"95924e40-a5b2-41f6-95f4-c8f99263a89b"
+	],
+	"tilegroupsOrder": [
+		"a8e73e46-0de1-44d2-aeeb-84cd620aad94"
+	],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Production Data",
+	"subTitle": "Material information for production",
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": null,
+	"hideHeader": null,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.04.26.0551",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Production Data",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": null,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"tiles": [
+		{
+			"id": "95924e40-a5b2-41f6-95f4-c8f99263a89b",
+			"name": "rdm sensor data",
+			"title": "Sensor Data",
+			"ver": "24.04.26.0552"
+		},
+		{
+			"id": "80b7ee47-5769-451a-93ec-39d28dd07269",
+			"name": "rdm heat code",
+			"title": "Heat Codes",
+			"ver": "24.03.20.0930"
+		},
+		{
+			"id": "4f4dab62-1c32-4dee-a95d-15fe5b250fdc",
+			"name": "rdm products",
+			"title": "Products",
+			"ver": "24.03.20.0929"
+		},
+		{
+			"id": "24dc85bb-c1ce-4762-809f-47a10ed62ebe",
+			"name": "rdm shells",
+			"title": "Shell numbers",
+			"ver": "24.03.20.0933"
+		},
+		{
+			"id": "2007c1e7-aa3b-469f-a499-31207955f266",
+			"name": "rdm cast codes",
+			"title": "Cast Code",
+			"ver": "24.03.20.0948"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "a8e73e46-0de1-44d2-aeeb-84cd620aad94",
+			"name": "Shift Planning",
+			"title": "Shift planning",
+			"ver": "24.03.22.0948"
+		}
+	]
+}

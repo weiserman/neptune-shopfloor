@@ -1,0 +1,530 @@
+{
+	"id": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"createdAt": "2024-03-19T09:30:51.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/weiserman/neptune-shopfloor"
+	},
+	"name": "rdm_production",
+	"description": "Production Dashboard",
+	"ver": "24.04.29.1142",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "df27b746-eda9-44cc-bd47-845dd8b616dc",
+			"application": "rdmproductionkiosk",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+			}
+		},
+		{
+			"id": "d39fbefa-c342-452d-8828-bcd62d185c08",
+			"application": "rdmproductionkiosk_v2",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+			}
+		},
+		{
+			"id": "5bd86d87-8ffa-439c-a767-bd1929c95a9e",
+			"application": "bootstrap_dashboard",
+			"title": "Production Dashboard",
+			"description": "RDM Production Dashboard",
+			"package": {
+				"id": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+			}
+		},
+		{
+			"id": "595956b0-ce71-4a12-b2c7-59dc12df9868",
+			"application": "rdm_cycle_count_chart",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "c4593a62-59a4-4dd7-b4e0-77ac031f3ebf",
+			"name": "Products",
+			"description": null,
+			"apiGroup": "8527139c-8f1e-4399-aaf3-dbe92de2369c"
+		},
+		{
+			"id": "c275026e-2f2e-4a79-be07-82b72e1d3116",
+			"name": "rdm_workcenter",
+			"description": "Work centers",
+			"apiGroup": null
+		},
+		{
+			"id": "56c330b5-9ea2-4c5f-803c-8ca96187e434",
+			"name": "rdm_sensor_data",
+			"description": "Raw Sensor Data",
+			"apiGroup": "8527139c-8f1e-4399-aaf3-dbe92de2369c"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "e4d92b08-ff67-49d1-8a91-d4901b9519f1",
+			"name": "rdm_workcenter",
+			"description": "Work centers"
+		},
+		{
+			"id": "c4752788-6366-48df-9dc4-9530e3f11982",
+			"name": "rdm_production_machines",
+			"description": "Production Machines for Sensor data"
+		},
+		{
+			"id": "88c9198b-f119-447b-ac0d-c120f99719a5",
+			"name": "rdm_production_plan",
+			"description": "Production"
+		},
+		{
+			"id": "6e6ddf91-7e1e-4842-b6d0-aa6c1dd9f265",
+			"name": "rdm_production_operation",
+			"description": "Production Operation"
+		},
+		{
+			"id": "57c4abec-ef29-4feb-8d70-591d6e2cb189",
+			"name": "rdm_sensor_data",
+			"description": "Raw Sensor Data"
+		},
+		{
+			"id": "5726a67c-0cea-4249-a60d-1f30bf165d5e",
+			"name": "rdm_production_run_detail",
+			"description": "Production run information"
+		},
+		{
+			"id": "47600a74-2036-4ed9-af50-685e56716bf6",
+			"name": "rdm_shell_number",
+			"description": "Shell Number"
+		},
+		{
+			"id": "44d8f7b5-bda3-43ce-b15c-6029513fa3e6",
+			"name": "rdm_operation",
+			"description": "Operation"
+		},
+		{
+			"id": "3c29834b-5f60-4509-91d7-63f6a4fa7bed",
+			"name": "rdm_production_operation_metric",
+			"description": "Production Operation"
+		},
+		{
+			"id": "2725861f-eef3-4b0f-b845-ed0cce2e4a01",
+			"name": "rdm_plant",
+			"description": "Plant "
+		},
+		{
+			"id": "2724d5af-060f-40d2-b3bf-08d3c1c0a837",
+			"name": "rdm_heat_code",
+			"description": "Heat Code "
+		},
+		{
+			"id": "1fbdfc97-b445-4be0-a19a-96865db4b568",
+			"name": "rdm_cast_code",
+			"description": "Cast Code"
+		},
+		{
+			"id": "0acbe3c1-11f5-44f4-bf73-a1f7157bd84d",
+			"name": "rdm_products",
+			"description": "Products "
+		}
+	],
+	"jsclass": [
+		{
+			"id": "940793ad-8c51-4f50-94c5-a16f03442920",
+			"name": "rdm_data_generator",
+			"description": "Generate sensor data"
+		},
+		{
+			"id": "3c36e119-fd3d-4adb-b848-c35def350eef",
+			"name": "comms test",
+			"description": "MQTT Testing"
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "e44ca1d6-aacb-4039-9dfa-34f5186f0da7",
+			"name": "rdm_sensor_data_generator",
+			"description": "Generate Sample Data"
+		},
+		{
+			"id": "dad80ec1-d627-4061-ae47-8abd01371f17",
+			"name": "mqtt_testing",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [
+		{
+			"id": "f315678c-6907-4c7d-afab-97c79030cd08",
+			"name": "rdm_shell_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "ee7ab14f-1f69-479a-9ac2-02b9247e5478",
+			"name": "rdm_heat_code_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "dd50928f-8228-4f90-9021-0078b0083233",
+			"name": "rdm_production_plan_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "dd3f004e-bc7e-4414-8c40-5a074be5efb0",
+			"name": "rdm_production_cycle_count",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "d7752466-9be3-450c-b137-61d68c36f307",
+			"name": "rdm_production_plan_bi",
+			"description": "",
+			"application": "planet9_adaptive_bi"
+		},
+		{
+			"id": "cbd4f1d9-58d1-4ca6-81d6-84691d93acb6",
+			"name": "rdm_product_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "b1a5a710-dd1e-4093-af4f-974d6162c4f8",
+			"name": "rdm_cast_code_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "a5f59e8c-e0e0-492c-8cbb-930a76f924f7",
+			"name": "rdm_plant_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "9583506f-04aa-4008-8ce0-1eeae54e169c",
+			"name": "rdm_production_plan_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "93b6d0d7-2935-462a-a6dc-b00864c73d81",
+			"name": "rdm_products_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "92d586b1-c121-470c-96f7-b947a2d8b5e8",
+			"name": "rdm_workcenter_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "91833dc7-a1a2-4765-bdf1-212bcd63ba6d",
+			"name": "rdm_sensor_data_report",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "8e54a3f0-c655-4816-9f6a-a369b0603f58",
+			"name": "rdm_machine_list",
+			"description": "List of machines in operation",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "85805afd-b6fb-40b3-b708-25fc5d53971c",
+			"name": "rdm_production_run_detail_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "7de365ab-497d-48e1-93e6-4ae237595793",
+			"name": "rdm_shell_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "7182e5f0-f731-43dd-b310-1d1787bc0cea",
+			"name": "rdm_production_operation_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "5af131cd-2b20-4352-a03b-80e01a7f5231",
+			"name": "rdm_workcenter_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "56c55e77-968d-4b33-aca1-b02cd66d1ad0",
+			"name": "rdm_production_run_detail_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "555bb64b-6bdc-4167-b62e-2d47edf8eb56",
+			"name": "rdm_heat_code_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "4f3e07cf-8141-4774-816c-b36f7515d96e",
+			"name": "rdm_production_data_tile",
+			"description": "",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "49ba8d8f-c4f1-4a73-8a11-497c236c45c2",
+			"name": "rdm_operation_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "371c8ac8-28d1-41fd-8598-e55d33bab2f2",
+			"name": "rdm_operation_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "35570163-3f28-411a-944e-7a2042c986eb",
+			"name": "rdm_production_operation_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "2f827f14-a31f-44a0-b296-3e89de6fa219",
+			"name": "rdm_production_operation_metric",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "225f918d-199a-451b-b924-14385c9c1c9a",
+			"name": "rdm_cast_code_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "0935b76a-fca8-49f3-9a70-8503868ec080",
+			"name": "rdm_plant_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "05c1a8c9-fe20-4456-86c3-9697fbb84acb",
+			"name": "rdm_machine_edit",
+			"description": "Machine Edit",
+			"application": "planet9_adaptive_edit"
+		}
+	],
+	"api_authentication": [],
+	"api_group": [
+		{
+			"id": "8527139c-8f1e-4399-aaf3-dbe92de2369c",
+			"name": "rdm production",
+			"description": null
+		}
+	],
+	"tile": [
+		{
+			"id": "f76c6740-e785-4916-87fb-3ea49f440cb9",
+			"description": "Configure production locations",
+			"name": "rdm plants"
+		},
+		{
+			"id": "c8096eb0-f263-4330-9d7b-21b6ef516880",
+			"description": "Manage production work centers / cells",
+			"name": "rdm workcenters"
+		},
+		{
+			"id": "95924e40-a5b2-41f6-95f4-c8f99263a89b",
+			"description": "Sensor Data",
+			"name": "rdm sensor data"
+		},
+		{
+			"id": "8eda280b-7c37-ee11-b8f0-002248a2f7be",
+			"description": "Production staff management",
+			"name": "Shift Planning Create_Update Employee"
+		},
+		{
+			"id": "80b7ee47-5769-451a-93ec-39d28dd07269",
+			"description": "Heat codes for manufacturing",
+			"name": "rdm heat code"
+		},
+		{
+			"id": "5a572292-9573-45ae-ab46-41b7a9c4ea1e",
+			"description": "",
+			"name": "rdm production metrics"
+		},
+		{
+			"id": "4f4dab62-1c32-4dee-a95d-15fe5b250fdc",
+			"description": "Production product management",
+			"name": "rdm products"
+		},
+		{
+			"id": "4120d5f1-32f6-4c88-bf9f-7da42911c31e",
+			"description": "Manage operations",
+			"name": "rdm operations"
+		},
+		{
+			"id": "38922e25-975d-4eb2-bffd-3a693f4dfced",
+			"description": "Target production of material",
+			"name": "rdm production plan"
+		},
+		{
+			"id": "24dc85bb-c1ce-4762-809f-47a10ed62ebe",
+			"description": "Manage list of shell numbers",
+			"name": "rdm shells"
+		},
+		{
+			"id": "2007c1e7-aa3b-469f-a499-31207955f266",
+			"description": "Manage Cast Codes",
+			"name": "rdm cast codes"
+		},
+		{
+			"id": "14a8341e-0754-48ed-9ed1-a2a714093088",
+			"description": null,
+			"name": "rdm kiosk tile"
+		},
+		{
+			"id": "00793fd1-c5d5-4faf-9343-faa61aa7b7cc",
+			"description": "Machine Management",
+			"name": "rdm machine"
+		}
+	],
+	"category": [
+		{
+			"id": "a9ea6878-6b97-46b2-a5c5-685a5135d1f7",
+			"description": null,
+			"name": "Production Data"
+		},
+		{
+			"id": "a8e73e46-0de1-44d2-aeeb-84cd620aad94",
+			"description": null,
+			"name": "Shift Planning"
+		},
+		{
+			"id": "78e90047-dfff-4552-ada0-a133c4a802d8",
+			"description": null,
+			"name": "Production Metrics"
+		},
+		{
+			"id": "60317bc0-4c71-4575-9d1f-74f6fbbd1493",
+			"description": null,
+			"name": "Production Planning"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "73f50237-2466-4583-a55f-8edb63b6c19d",
+			"name": "rdm_kiosk_launchpad",
+			"description": "Dashboard"
+		},
+		{
+			"id": "6f2fc187-4f47-4748-9ef1-13ca3c3ac7cc",
+			"name": "rdm_production_launchpad",
+			"description": "Dashboard"
+		}
+	],
+	"certificates": [],
+	"role": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"description": "Production Dashboard Role"
+		}
+	],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [
+		{
+			"id": "7ddf5f44-4a0a-43b1-bac4-aacbcb82dfd2",
+			"name": "IOT Data Gen",
+			"description": "Generate IOT data"
+		}
+	],
+	"wf_definition": [],
+	"connector": [
+		{
+			"id": "f5b995ab-aab5-4c17-a750-ccaf6724a2aa",
+			"name": "rdm_cast_code",
+			"description": "Cast Code"
+		},
+		{
+			"id": "e891b88c-122e-48fe-82ce-4ad131d078fe",
+			"name": "rdm_heat_code",
+			"description": "Heat Code "
+		},
+		{
+			"id": "c2f99535-04dd-4378-9a04-b33d3646fda6",
+			"name": "rdm_production_plan",
+			"description": "Production"
+		},
+		{
+			"id": "bdaf4eb7-9490-4b3c-976f-356b60fb2675",
+			"name": "rdm_sensor_data",
+			"description": "Raw Sensor Data"
+		},
+		{
+			"id": "bc36021a-ea47-49c6-84b3-1a5a132102b4",
+			"name": "rdm_operation",
+			"description": "Operation"
+		},
+		{
+			"id": "a53be174-ba9d-47ca-afd3-a5524ce09e75",
+			"name": "rdm_workcenter",
+			"description": "Work centers"
+		},
+		{
+			"id": "99e28aa1-5e49-47a3-97da-7d4a64e5cd45",
+			"name": "rdm_production_operation_metric",
+			"description": "Production Operation Metric"
+		},
+		{
+			"id": "57ce5f26-8f63-46cb-8260-6c8b1bc73afe",
+			"name": "rdm_production_operation",
+			"description": "Production Operation"
+		},
+		{
+			"id": "4b4b244f-ec08-4d41-bf54-5c303fa4ad64",
+			"name": "rdm_production_machines",
+			"description": "Production Machines for Sensor data"
+		},
+		{
+			"id": "2de545ac-d23a-4554-a4ba-d67364a75ff1",
+			"name": "rdm_plant",
+			"description": "Plant "
+		},
+		{
+			"id": "28bb6a54-0817-4215-aa5c-7a3e0d26b0e7",
+			"name": "rdm_products",
+			"description": "Products "
+		},
+		{
+			"id": "17021a8e-8f33-4ae1-8a95-db99b036a820",
+			"name": "rdm_production_run_detail",
+			"description": "Production run information"
+		},
+		{
+			"id": "084dd371-94c0-4ade-ab6c-e9f0eb9b0f54",
+			"name": "rdm_shell_number",
+			"description": "Shell Number"
+		}
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

@@ -1,0 +1,157 @@
+{
+	"id": "0935b76a-fca8-49f3-9a70-8503868ec080",
+	"createdAt": "2024-03-19T13:46:19.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"title": "Plant Detail",
+				"avatarIcon": "sap-icon://factory"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"formLayout": "ResponsiveGridLayout"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "full_name",
+				"label": "Full Name of Plant",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "plant_code",
+				"label": "Plant Code",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "sap_werks",
+				"label": "SAP Plant",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "uppercase",
+				"editable": true,
+				"visible": true,
+				"name": "plant_code",
+				"text": "Plant Code",
+				"fieldPos": 1,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "full_name",
+				"text": "Name of Plant",
+				"fieldPos": 2,
+				"mask": "",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "sap_werks",
+				"text": "SAP Plant",
+				"fieldPos": 3
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "ac9fdd2d-7458-45ce-ec60-a7f955ba7a4c",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_plant_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "2de545ac-d23a-4554-a4ba-d67364a75ff1",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.03.21.1027",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,17 @@
+{
+	"id": "2de545ac-d23a-4554-a4ba-d67364a75ff1",
+	"createdAt": "2024-03-19T13:21:51.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "2725861f-eef3-4b0f-b845-ed0cce2e4a01"
+	},
+	"documentation": {},
+	"name": "rdm_plant",
+	"description": "Plant ",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.19.1321",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

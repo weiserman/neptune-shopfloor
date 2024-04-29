@@ -1,0 +1,142 @@
+{
+	"id": "5726a67c-0cea-4249-a60d-1f30bf165d5e",
+	"createdAt": "2024-03-21T06:37:40.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "0705b7c5-eda7-4697-f6f9-ae4b18b2ea34",
+			"fieldName": "plan_id",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Plan Id"
+		},
+		{
+			"id": "b6c65959-ca89-45e3-c0b0-7be33d13e53b",
+			"fieldName": "cast_code",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Cast Code",
+			"isNullable": true
+		},
+		{
+			"id": "fa898857-62ff-49d6-e234-08bbecf70a20",
+			"fieldName": "heat_code",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Heat Code",
+			"isNullable": true
+		},
+		{
+			"id": "3a9c2be4-1531-4fa3-f4c7-2d40983d9b3a",
+			"fieldName": "shell_number",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Shell Number",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [
+		{
+			"id": "2ba3a3fc-79d6-4697-ddb5-66afcba4cf27",
+			"name": "foreign_cast_code",
+			"referencedTable": "rdm_cast_code",
+			"referencedTableId": "1fbdfc97-b445-4be0-a19a-96865db4b568",
+			"referencedTableColumns": [
+				{
+					"id": "65cbe6d6-a87b-45e6-aa3e-07d0fbdb1d2d",
+					"fieldName": "cast_code",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Cast Code"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "65cbe6d6-a87b-45e6-aa3e-07d0fbdb1d2d",
+					"id": "b6c65959-ca89-45e3-c0b0-7be33d13e53b",
+					"fieldName": "cast_code",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Cast Code",
+					"isNullable": true,
+					"referencedColumnName": "cast_code"
+				}
+			]
+		},
+		{
+			"id": "da748d73-d0ed-4177-d6fd-c6dc4ce9c8ad",
+			"name": "foreign_heat_code",
+			"referencedTable": "rdm_heat_code",
+			"referencedTableId": "2724d5af-060f-40d2-b3bf-08d3c1c0a837",
+			"referencedTableColumns": [
+				{
+					"id": "7336cab0-eb3e-4c8f-9c99-4b0be4713f56",
+					"fieldName": "heat_code",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Heat Code"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "7336cab0-eb3e-4c8f-9c99-4b0be4713f56",
+					"id": "fa898857-62ff-49d6-e234-08bbecf70a20",
+					"fieldName": "heat_code",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Heat Code",
+					"isNullable": true,
+					"referencedColumnName": "heat_code"
+				}
+			]
+		},
+		{
+			"id": "acf508a6-a3ee-4956-8640-a8137acfb649",
+			"name": "foreign_shell_number",
+			"referencedTable": "rdm_shell_number",
+			"referencedTableId": "47600a74-2036-4ed9-af50-685e56716bf6",
+			"referencedTableColumns": [
+				{
+					"id": "34cc7e9a-7bc5-428e-8af8-7d4cb916fd4f",
+					"fieldName": "shell_number",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"description": "Shell Number"
+				}
+			],
+			"columns": [
+				{
+					"referencedColumnId": "34cc7e9a-7bc5-428e-8af8-7d4cb916fd4f",
+					"id": "3a9c2be4-1531-4fa3-f4c7-2d40983d9b3a",
+					"fieldName": "shell_number",
+					"fieldType": "smalltext",
+					"isUnique": false,
+					"description": "Shell Number",
+					"isNullable": true,
+					"referencedColumnName": "shell_number"
+				}
+			]
+		}
+	],
+	"name": "rdm_production_run_detail",
+	"description": "Production run information",
+	"ver": "24.03.28.0752",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

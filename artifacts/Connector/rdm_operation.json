@@ -1,0 +1,17 @@
+{
+	"id": "bc36021a-ea47-49c6-84b3-1a5a132102b4",
+	"createdAt": "2024-03-19T13:25:30.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "44d8f7b5-bda3-43ce-b15c-6029513fa3e6"
+	},
+	"documentation": {},
+	"name": "rdm_operation",
+	"description": "Operation",
+	"group": null,
+	"type": "T",
+	"ver": "24.03.19.1325",
+	"disabled": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

@@ -1,0 +1,28 @@
+{
+	"id": "3c36e119-fd3d-4adb-b848-c35def350eef",
+	"createdAt": "2024-03-27T16:38:20.000Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [
+		{
+			"id": "4d529698-6ef6-46e1-a29e-15535e1f7b47",
+			"name": "mqtt",
+			"contextname": "mqtt",
+			"path": "./node_modules/mqtt"
+		}
+	],
+	"entitySets": [],
+	"apis": [],
+	"name": "comms test",
+	"ver": "24.03.28.0610",
+	"description": "MQTT Testing",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "dad80ec1-d627-4061-ae47-8abd01371f17",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a"
+}

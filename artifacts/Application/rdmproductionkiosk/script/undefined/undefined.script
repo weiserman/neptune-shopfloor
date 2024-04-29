@@ -1,0 +1,63 @@
+.nbsButton-icon + .nbsButton-text, .nbsButton-text + .nbsButton-icon {
+  margin-left: 0.75rem;
+}
+
+*[class*=massiveButton] * {
+  font-size: 1.5rem;
+}
+
+.massiveButton .sapMBtnIcon {
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.massiveButtonIconEnd .sapMBtnIcon {
+  width: 1.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+*[class*=massiveButton] > span {
+  height: 150%;
+}
+
+*[class*=massiveButton] .sapMBtnContent {
+  align-content: center;
+}
+
+*[class*=massiveButton] .sapMBtnInner {
+  justify-content: space-between;
+}
+
+.massiveInput * {
+  font-size: 2rem;
+  height: 4rem;
+}
+
+.massiveInput .sapMBtnIcon {
+  width: 2rem;
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+}
+
+.massiveInput .sapMBtnContent {
+  align-content: center;
+}
+
+.ProdLI.sapMLIBActionable {
+  cursor: default;
+}
+
+.ProdLI.sapMLIBActionable .sapMText {
+  cursor: default;
+}
+
+.Unselectable * {
+  color: rgb(147, 147, 147);
+}
+
+.ProdLI .sapMLIBImgNav {
+  font-size: 0px;
+}

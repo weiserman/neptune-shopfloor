@@ -1,0 +1,57 @@
+{
+	"id": "e4d92b08-ff67-49d1-8a91-d4901b9519f1",
+	"createdAt": "2024-03-20T10:18:16.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "4f36c21e-f23e-4466-b26c-e956d423abed",
+			"fieldName": "workcenter",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Work Center"
+		},
+		{
+			"id": "80b4f539-4291-41b7-af95-527c4775d124",
+			"fieldName": "description",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Description"
+		},
+		{
+			"id": "cf5aea37-9bae-4893-a8c4-d538998d33d5",
+			"fieldName": "plant",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Associated Plant"
+		},
+		{
+			"id": "e21cc2d8-5625-4782-a435-417d1996e75d",
+			"fieldName": "active",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "IsActive"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_workcenter",
+	"description": "Work centers",
+	"ver": "24.03.20.1018",
+	"enableAudit": true,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

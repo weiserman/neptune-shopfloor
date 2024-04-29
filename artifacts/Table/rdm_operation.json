@@ -1,0 +1,58 @@
+{
+	"id": "44d8f7b5-bda3-43ce-b15c-6029513fa3e6",
+	"createdAt": "2024-03-19T13:23:46.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "c5aa4176-5018-4a97-d11e-eb62871a0c5e",
+			"fieldName": "operation",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"description": "Operation"
+		},
+		{
+			"id": "7a4ad761-9d5a-4ecc-b2d8-0ff8da158511",
+			"fieldName": "operation_number",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Operation Number",
+			"isNullable": true
+		},
+		{
+			"id": "a3565935-76f7-43d0-c323-0763329ec647",
+			"fieldName": "description",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"description": "Description"
+		},
+		{
+			"id": "ed3b53d5-3c8c-4a33-c8b6-cdfa8077b44a",
+			"fieldName": "sequence_number",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Sequence Number"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_operation",
+	"description": "Operation",
+	"ver": "24.04.26.0645",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"rolesWrite": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	]
+}

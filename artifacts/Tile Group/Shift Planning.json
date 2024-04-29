@@ -1,0 +1,95 @@
+{
+	"id": "a8e73e46-0de1-44d2-aeeb-84cd620aad94",
+	"createdAt": "2024-03-20T09:20:15.000Z",
+	"createdBy": "admin",
+	"translation": [],
+	"tilesOrder": [
+		"f9545232-7c37-ee11-b8f0-002248a2f7be",
+		"8eda280b-7c37-ee11-b8f0-002248a2f7be",
+		"38922e25-975d-4eb2-bffd-3a693f4dfced"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Shift planning",
+	"subTitle": "Production schedules ",
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.03.22.0948",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Shift Planning",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": "Many",
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [
+		{
+			"id": "0344de29-eecc-4072-b3d3-e7fe00d6aa74",
+			"name": "rdm_production_dashboard",
+			"ver": "24.03.19.0933"
+		}
+	],
+	"tiles": [
+		{
+			"id": "f9545232-7c37-ee11-b8f0-002248a2f7be",
+			"name": "Shift Planning Manage Shifts",
+			"title": "Shifts",
+			"ver": "24.03.20.1051"
+		},
+		{
+			"id": "8eda280b-7c37-ee11-b8f0-002248a2f7be",
+			"name": "Shift Planning Create_Update Employee",
+			"title": "Manage Staff",
+			"ver": "24.03.20.1050"
+		},
+		{
+			"id": "38922e25-975d-4eb2-bffd-3a693f4dfced",
+			"name": "rdm production plan",
+			"title": "Production Plan",
+			"ver": "24.03.20.1142"
+		}
+	],
+	"tilegroups": []
+}

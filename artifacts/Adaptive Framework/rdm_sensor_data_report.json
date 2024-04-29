@@ -1,0 +1,245 @@
+{
+	"id": "91833dc7-a1a2-4765-bdf1-212bcd63ba6d",
+	"createdAt": "2024-04-26T05:43:46.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Refresh",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": true,
+				"enableImport": true,
+				"enableMultiSelect": false,
+				"enableVariant": true,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Sensor Data",
+				"subTitle": "Production Dashboard",
+				"avatarIcon": "sap-icon://factory",
+				"avatarBackgroundColor": "Accent8",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"gridBoxPerRow": "XL7 L6 M4 S2",
+				"gridBoxMinWidth": "",
+				"inset": false,
+				"enableCompact": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"enableAutoPopin": false
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "timestamp",
+				"label": "Timestamp of cycle count",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "machine_name",
+				"label": "Machine ID",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "cycle_complete",
+				"label": "Cycle complete - boolean",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "status",
+				"label": "Status of machine",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "error_code",
+				"label": "Error Code",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "machine_name",
+				"text": "Machine ID",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_production_machines",
+				"lookupFieldKey": "machine_id",
+				"lookupFieldText": "machine_id",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "error_code",
+				"text": "Error Code",
+				"fieldPos": 2,
+				"type": "Input"
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "timestamp",
+				"text": "Timestamp of cycle count",
+				"fieldPos": 3,
+				"formatter": "",
+				"width": "150px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "machine_name",
+				"text": "Machine ID",
+				"fieldPos": 4,
+				"width": "120px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "cycle_complete",
+				"text": "Cycle complete",
+				"fieldPos": 5,
+				"width": "100px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "status",
+				"text": "Status of machine",
+				"fieldPos": 6,
+				"width": "150px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "error_code",
+				"text": "Error Code",
+				"fieldPos": 7
+			}
+		],
+		"defaultVariant": {
+			"id": "b119b62f-952f-418b-c7f7-2332609a86de",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_sensor_data_report",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "bdaf4eb7-9490-4b3c-976f-356b60fb2675",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.04.26.0728",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

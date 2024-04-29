@@ -1,0 +1,56 @@
+{
+	"id": "57c4abec-ef29-4feb-8d70-591d6e2cb189",
+	"createdAt": "2024-04-24T08:51:21.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "15895085-cec8-48ca-f28b-699aa747b5b2",
+			"fieldName": "timestamp",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"description": "Timestamp of cycle count"
+		},
+		{
+			"id": "d983ce0d-f66f-40d3-cd4b-60c24e7d4e62",
+			"fieldName": "machine_name",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"description": "Machine ID"
+		},
+		{
+			"id": "01c7c979-0a82-4304-aa2b-6934d347675c",
+			"fieldName": "cycle_complete",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"description": "Cycle complete - boolean",
+			"default": "True"
+		},
+		{
+			"id": "e9e8e8ef-ccb3-4869-904b-71f50c003a35",
+			"fieldName": "status",
+			"fieldType": "text",
+			"isUnique": false,
+			"description": "Status of machine",
+			"default": "Running"
+		},
+		{
+			"id": "c1bf6576-71f6-4946-8a2f-7ad1c8cc9b91",
+			"fieldName": "error_code",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "None",
+			"description": "Error Code",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "rdm_sensor_data",
+	"description": "Raw Sensor Data",
+	"ver": "24.04.27.1711",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"rolesRead": [],
+	"rolesWrite": []
+}

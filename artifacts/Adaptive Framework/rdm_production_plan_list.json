@@ -1,0 +1,328 @@
+{
+	"id": "9583506f-04aa-4008-8ce0-1eeae54e169c",
+	"createdAt": "2024-03-20T11:18:56.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": true,
+				"enableImport": true,
+				"enableMultiSelect": false,
+				"enableVariant": true,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference",
+				"title": "Production Plan",
+				"avatarIcon": "sap-icon://target-group",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "dd50928f-8228-4f90-9021-0078b0083233",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						}
+					]
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "dd50928f-8228-4f90-9021-0078b0083233",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": true,
+				"headerExpanded": true,
+				"headerPreserveState": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "sap_production_plan",
+				"label": "SAP Production Plan",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "plant",
+				"label": "Plant",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "product",
+				"label": "Product",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "customer_order_number",
+				"label": "Customer Order Number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_start_date",
+				"label": "Start Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "production_end_date",
+				"label": "End Date",
+				"type": "timestamptz",
+				"usage": "BOTH"
+			},
+			{
+				"name": "target_qty",
+				"label": "Target Quantity",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "active",
+				"label": "Plan is active",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "plant",
+				"text": "Plant",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_plant",
+				"lookupFieldKey": "plant_code",
+				"lookupFieldText": "plant_code",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "product",
+				"text": "Product",
+				"fieldPos": 2,
+				"type": "SingleSelectLookup",
+				"lookupTable": "rdm_products",
+				"lookupFieldKey": "product_name",
+				"lookupFieldText": "product_name",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "active",
+				"text": "Plan is active",
+				"fieldPos": 3,
+				"type": "CheckBox",
+				"default": "X"
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "sap_production_plan",
+				"text": "SAP Production Plan",
+				"fieldPos": 4,
+				"width": "150px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "customer_order_number",
+				"text": "Customer Order",
+				"fieldPos": 5,
+				"width": "150px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "plant",
+				"text": "Plant",
+				"fieldPos": 6,
+				"width": "75px"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "product",
+				"text": "Product",
+				"fieldPos": 7
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "production_start_date",
+				"text": "Start Date",
+				"fieldPos": 8,
+				"formatter": "date01"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "production_end_date",
+				"text": "End Date",
+				"fieldPos": 9,
+				"formatter": "date01"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "target_qty",
+				"text": "Target Quantity",
+				"fieldPos": 10
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "active",
+				"text": "Plan is active",
+				"fieldPos": 11,
+				"type": "CheckBox"
+			}
+		],
+		"defaultVariant": {
+			"id": "e9ae4e25-3e46-46dd-89b2-b5922540bb17",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_production_plan_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "c2f99535-04dd-4378-9a04-b33d3646fda6",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.04.27.1633",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,222 @@
+{
+	"id": "85805afd-b6fb-40b3-b708-25fc5d53971c",
+	"createdAt": "2024-03-21T06:41:46.000Z",
+	"createdBy": "admin",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference",
+				"title": "Production Detail",
+				"avatarIcon": "sap-icon://tnt/Batch Processing",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "56c55e77-968d-4b33-aca1-b02cd66d1ad0",
+					"keyField": []
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "56c55e77-968d-4b33-aca1-b02cd66d1ad0",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "plan_id",
+				"label": "Plan Id",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "cast_code",
+				"label": "Cast Code",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "heat_code",
+				"label": "Heat Code",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "shell_number",
+				"label": "Shell Number",
+				"type": "smalltext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "plan_id",
+				"text": "Plan Id",
+				"fieldPos": 1
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "plan_id",
+				"text": "Plan Id",
+				"fieldPos": 2
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "cast_code",
+				"text": "Cast Code",
+				"fieldPos": 3
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "heat_code",
+				"text": "Heat Code",
+				"fieldPos": 4
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "shell_number",
+				"text": "Shell Number",
+				"fieldPos": 5
+			}
+		],
+		"defaultVariant": {
+			"id": "161dc971-2591-46b2-b8a5-bee69c16fbf3",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "rdm_production_run_detail_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "17021a8e-8f33-4ae1-8a95-db99b036a820",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.03.21.0648",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "13f70494-a1bf-49d5-828a-11eb57c38b2a",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
